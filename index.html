@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Meals App
+        </title>
+        <script src="https://kit.fontawesome.com/4173e81178.js" crossorigin="anonymous"></script>
+        <!-- linking stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- bulding search bar -->
+        
+        <div class="container">
+            <h1>Meals App</h1>
+            <div class="flex">
+                <form class="flex" id="submit">
+                    <input type="text" id="search" placeholder="Search For Meal">
+                    <button class="search_btn" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <button class="clear" id="clear-btn">Clear</button>
+                <button class="favourite" id="favourite-btn">favourite</button>
+            </div>
+            <!-- geting result -->
+            <div class="result" id="result-heandling"><h3></h3></div>
+            <ul id="listofMeal" class="meals">
+                <!-- <li>
+                    <img src="" alt="">
+                    <div>
+                        <h2 id="mealTitle"></h2>
+                        <h3 id="mealcatgory"></h3>
+                        <a id="fav" href="">favourite</a>
+                    </div>
+                </li> -->
+            </ul>
+        </div>
+
+        <!-- linking js file -->
+        <script src="meal.js"></script>
+    </body>
+</html>

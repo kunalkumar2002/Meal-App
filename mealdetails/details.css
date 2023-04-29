@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+	background-color: #2d2013;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    align-content: center;
+	/* overflow-x: hidden; */
+}
+
+#container {
+	/* width: fit-content; */
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+	display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	
+
+    align-items: center;
+}
+#mealName h2{
+    font-size: 50px;
+}
+#photo{
+    margin-top: 10px;
+}
+#photo img{
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    border: 2px solid white;
+}
+#instruction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    width: 70%;
+    font-size: x-large;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: gray;	
+}
+#ingridents {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    height: fit-content;
+    width: 70%;
+    text-align: left;
+    font-size: xx-large;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: gray;
+    	
+}
+#ingridents ul{
+    list-style-type: none;
+    font-size: xx-large;
+}
+#source a{
+    color:bisque;
+    font-size: x-large;
+}
