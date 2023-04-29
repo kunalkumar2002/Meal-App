@@ -18,7 +18,8 @@
 - 
 - Remove from favourites button: Each meal has a remove from favourites button, clicking on which meal gets removed from favList.
 
-# the link of final hoisted page is : - https://kunalkumar2002.github.io/Meal-App/
+# the link of final hoisted page is : 
+- https://kunalkumar2002.github.io/Meal-App/
 
 # API Used
 - https://www.themealdb.com/api.php
