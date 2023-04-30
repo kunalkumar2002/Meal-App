@@ -1,6 +1,7 @@
 const search = document.getElementById('search');
 const listofMeal = document.getElementById('listofMeal');
 const result = document.getElementById('result-heandling');
+const button = document.getElementById('search-btn');
 
 let mealList = [];
 let fav = [];
